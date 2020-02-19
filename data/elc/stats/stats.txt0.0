@@ -1,0 +1,6 @@
+usr_cnt,73092
+prd_cnt,34360
+doc_cnt,79943
+data/elc/train.sslen,79942
+data/elc/dev.sslen,9994
+data/elc/test.sslen,9994

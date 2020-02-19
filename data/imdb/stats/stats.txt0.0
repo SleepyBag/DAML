@@ -1,0 +1,6 @@
+usr_cnt,1310
+prd_cnt,1635
+doc_cnt,67427
+data/imdb/train.sslen,67426
+data/imdb/dev.sslen,8381
+data/imdb/test.sslen,9112

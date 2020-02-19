@@ -1,0 +1,6 @@
+usr_cnt,43123
+prd_cnt,40042
+doc_cnt,80000
+data/cd/train.sslen,79999
+data/cd/dev.sslen,10000
+data/cd/test.sslen,10000

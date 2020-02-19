@@ -1,0 +1,6 @@
+usr_cnt,36730
+prd_cnt,22058
+doc_cnt,79991
+data/clt/train.sslen,79990
+data/clt/dev.sslen,10000
+data/clt/test.sslen,10000
