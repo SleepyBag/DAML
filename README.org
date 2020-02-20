@@ -1,0 +1,38 @@
+* DAML
+  This is the original implementation of the paper /Improving Domain-Adapted Sentiment Classification by Deep Adversarial Mutual Learning/ publicized in AAAI-2020.
+
+** Requirement
+*** Python packages
+   - Tensorflow 1.14
+   - colored
+   - tqdm
+*** Other
+   - figlet (install from your system package manager, e.g. apt in Ubuntu or brew in MacOS)
+
+** Guide
+*** How to run
+   To run the naive baseline, just run
+   #+BEGIN_SRC
+python train_naive.py --dataset SOURCE_DOMAIN --unlabeled_dataset TARGET_DOMAIN
+   #+END_SRC
+
+   To run any other model, just run
+   #+BEGIN_SRC
+python adv_train.py --model MODEL --dataset SOURCE_DOMAIN --unlabeled_dataset TARGET_DOMAIN
+   #+END_SRC
+
+*** Available models
+    The following model names are available, just as filenames show:
+    | dann | adversarial cross-domain training framerwork without Mutual Learning |
+    | sml  | standard Mutual Learning framework                                   |
+    | ml   | the proposed Mutual Learning framework                               |
+    | ml3  | the proposed Mutual Learning framework with 3 models involved        |
+    | ml4  | the proposed Mutual Learning framework with 4 models involved        |
+
+*** Available datasets
+    The following dataset names are available, just as shown in directory data/:
+    - imdb
+    - yelp13
+    - elc (Amazon Electronics)
+    - clt (Amazon Clothing)
+    - cd (Amazon CD)
