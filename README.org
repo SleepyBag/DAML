@@ -2,6 +2,7 @@
   This is the original implementation of the paper /Improving Domain-Adapted Sentiment Classification by Deep Adversarial Mutual Learning/ publicized in AAAI-2020.
 
 ** Requirement
+Python3.7
 *** Python packages
    - Tensorflow 1.14
    - colored
