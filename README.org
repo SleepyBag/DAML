@@ -21,6 +21,10 @@ python train_naive.py --dataset SOURCE_DOMAIN --unlabeled_dataset TARGET_DOMAIN
    #+BEGIN_SRC
 python adv_train.py --model MODEL --dataset SOURCE_DOMAIN --unlabeled_dataset TARGET_DOMAIN
    #+END_SRC
+   
+*** Dataset
+    If the dataset are not downloaded automatically through git clone, please check the following link to get the dataset:
+    [[https://drive.google.com/file/d/1Pd05BvEkyT0fXy-IcFO5n4rsY4qei8l6/view?usp=sharing]]
 
 *** Available models
     The following model names are available, just as filenames show:
