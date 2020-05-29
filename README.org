@@ -23,8 +23,9 @@ python adv_train.py --model MODEL --dataset SOURCE_DOMAIN --unlabeled_dataset TA
    #+END_SRC
    
 *** Dataset
-    If the dataset are not downloaded automatically through git clone, please check the following link to get the dataset:
-    [[https://drive.google.com/file/d/1Pd05BvEkyT0fXy-IcFO5n4rsY4qei8l6/view?usp=sharing]]
+    If the datasets are not downloaded automatically through git clone, please check the following link to get the dataset and the word embedding:
+    - [[https://drive.google.com/file/d/1Pd05BvEkyT0fXy-IcFO5n4rsY4qei8l6/view?usp=sharing]]
+    - [[https://drive.google.com/file/d/1UdMPBUjRRm4npeKKnMuVfRdzXOyS7Z0N/view?usp=sharing]]
 
 *** Available models
     The following model names are available, just as filenames show:
